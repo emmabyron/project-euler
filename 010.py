@@ -2,10 +2,7 @@ primes = [2]
 
 index = 3
 
-while True:
-    if primes[-1] >= 2000000:
-        break
-
+while primes[-1] <= 2000000:
     for p in primes:
         if p > index ** (1/2):
             primes.append(index)
