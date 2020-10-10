@@ -1,3 +1,3 @@
-answer = sum(n for n in range(101)) ** 2 - sum(n ** 2 for n in range(101))
+answer = sum(number for number in range(101)) ** 2 - sum(number ** 2 for number in range(101))
 
 print(answer)

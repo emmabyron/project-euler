@@ -3,13 +3,13 @@ primes = [2]
 index = 3
 
 while len(primes) < 10001:
-    for p in primes:
-        if p > index ** (1/2):
+    for prime in primes:
+        if prime > index ** (1/2):
             primes.append(index)
 
             break
 
-        if index / p % 1 == 0:
+        if index / prime % 1 == 0:
             break
     
     index += 2
