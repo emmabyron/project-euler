@@ -14,6 +14,6 @@ while primes[-1] <= 2000000:
     
     index += 2
 
-primes = primes[:-1]
+primes = sum(primes[:-1])
 
-print(sum(primes))
+print(primes)
